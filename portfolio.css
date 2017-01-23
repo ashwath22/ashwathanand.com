@@ -1,0 +1,17 @@
+h1 {
+	font-size: 50px;
+}
+
+h3 {
+	margin-top: 0;
+}
+
+p {
+	line-height: 2em;
+}
+
+img.featurette-image {
+	width: 100%;
+	max-width: 240px;
+	margin-bottom: 20px;
+}
