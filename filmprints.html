@@ -13,6 +13,7 @@
 		
 	    <!-- Bootstrap -->
 	    <link rel="stylesheet" href="http://ashwathanand.com/bootstrap.min.css">
+	    <link rel="stylesheet" href="http://ashwathanand.com/font-awesome.css">
 
 	    <!-- Custom CSS -->
 			<link rel="stylesheet" href="video.css">
@@ -23,76 +24,88 @@
 
 	<body>
 
-	  <!-- Navigation -->
-	  <nav class="navbar navbar-inverse navbar-fixed-top navbar-pull-right" role="navigation">
+	<!-- Navigation -->
+	<nav class="navbar navbar-inverse navbar-fixed-top navbar-pull-right" role="navigation">
 	    <div class="container">
-				<div class="col-md-10 col-md-offset-1">
+			<div class="col-md-10 col-md-offset-1">
+		        <div class="navbar-header">
+		          <a href="http://ashwathanand.com/index.html"><img class="navbar-brand pull-left" src="http://ashwathanand.com/picture_library/A%20logo2.png"></img></a>
+		        </div>
 
-	        <div class="navbar-header">
-	          <a href="http://ashwathanand.com/index.html"><img class="navbar-brand pull-left" src="http://ashwathanand.com/picture_library/A%20logo2.png"></img></a>
-	        </div>
-
-	        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	          <ul class="nav navbar-nav navbar-right">
-							<li class="active"><a href="index.html"><strong>Portfolio</strong></a></li>
-							<li><a href="aboutme.html"><strong>About me</strong></a></li>
-							<li><a href="resume.html"><strong>Resume</strong></a></li>
-							<li><a href="contact/contact.php"><strong>Contact</strong></a></li>
-						</ul>
-					</div>
-
+	        	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	          		<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="index.html"><strong>Portfolio</strong></a></li>
+						<li><a href="aboutme.html"><strong>About me</strong></a></li>
+						<li><a href="resume.html"><strong>Resume</strong></a></li>
+						<li><a href="contact/contact.php"><strong>Contact</strong></a></li>
+					</ul>
 				</div>
-			</div> <!-- /.container -->
-		</nav>
+			</div>
+		</div> <!-- /.container -->
+	</nav>
 		
-	  <!-- Page Content -->
-	  <div class="container">
-
+	<!-- Page Content -->
+	<div class="container">
 	  	<div class="col-md-10 col-md-offset-1">
-		    <h1>Filmprints</h1>
+		    <h2>Filmprints</h2>
+			<p>
+				<strong>Duration</: October 2016 - current<br></strong>
+				<strong>Tech stack: </strong>
+			</p><br>
+			<p>
+				Film prints has been my opportunity to comine two of my current obsessions: building full-stack javascript web apps and learning to shoot on a 30 year old film camera. This is still a work in progress and will continue to get better as I get better at product design, web development and photography.
+			</p>
+			<br>
+			<p>
+				<img class="img-responsive" alt="Responsive image" margin-top: "100px" class="width=100%" src="http://ashwathanand.com/filmprints/landingshot.png"  alt="Generic placeholder image"></img>
+			</p>
+			<br>
+			<p>
+				<strong>See the <a href="https://filmprints.herokuapp.com/">webapp</a>
+				<br>See the <a href="hhttps://github.com/ashwath22/filmprints">GitHub Repo</a></strong>
+			</p>
+			<br>
 
-		    <!-- ADD YOUR CONTENT HERE!! -->
+			<p><h4><strong>Tech used</strong></h4>
+			I decided to use Contentful as my CMS to upload all my images into.
+			I have normalized the JSON that contentful spits out(Its pretty messy.) and used handlebar templates to construct my UI for the web app.
+			Also used: Node.js, express and Heroku. 
+			</p>    
+			<br /><br/ >
 
-		  </div>
+			<hr>
 
-	  </div> <!-- /.container -->
-	    
-		<br /><br/ >
+			<!-- Project Navigation (footer nav) -->
+			<nav class="navbar navbar-float-bottom">
+			    <div class="container">
+			    	<ul class="nav navbar-nav">
+						<li><a href="filmprints.html"><strong>Filmprints</strong></a></li>
+						<li><a href="shyp.html">Shyp</a></li>
+						<li><a href="engageos.html">EngageOS</a></li>
+						<li><a href="pocktvr.html">pocktVR</a></li>
+						<li><a href="hammock.html">Hammock</a></li>
+						<li><a href="juniormusic.html">Juniormusic</a></li>
+						<li><a href="twitterbot.html">Twitter Bot</a></li>
+						<li><a href="nucleus.html">Nucleus</a></li>
+						<li><a href="vendobox.html">VendoBox</a></li>
+					</ul>
+				</div>
+			</nav>
+			<p class="text-center">
+	            <a href="nucleus.html">GitHub</a>
+	            <a href="nucleus.html">LinkeIn</a>
+	        </p>
 
-		<hr>
-
-		<!-- Project Navigation (footer nav) -->
-		<nav class="navbar navbar-float-bottom">
-	    <div class="container">
-	      <ul class="nav navbar-nav">
-					<li><a href="dashbutton.html">Dash Button</a></li>
-					<li><a href="domed.html">Domed</a></li>
-					<li><a href="filmprints.html">Filmprints</a></li>
-					<li><a href="flickquick.html">FlickQuick</a></li>
-					<li><a href="GS1.html">GS1</a></li>
-					<li><a href="hammock.html">Hammock</a></li>
-					<li><a href="juniormusic.html">Juniormusic</a></li>
-					<li><a href="nucleus.html">Nucleus</a></li>
-					<li><a href="pocktvr.html">pocktVR</a></li>
-					<li><a href="shyp.html">Shyp</a></li>
-					<li><a href="syria360.html">Syria 360</a></li>
-					<li><a href="twitterbot.html">Twitter Bot</a></li>
-					<li><a href="vendobot.html">VendoBot</a></li>
-					<li><a href="yumme.html">YumMe</a></li>
-				</ul>
-	    </div> <!-- /.container -->
-	  </nav>
-
-		<p class="text-center">
-			Copyright 2017 Ashwath Anand
-		</p>
-
+	        <p class="text-center">
+	            Copyright 2017 Ashwath Anand
+	        </p>
 	  <!-- jQuery -->
 	  <script src="http://ashwathanand.com/jquery.js"></script>
 
 	  <!-- Bootstrap Core JavaScript -->
 	  <script src="http://ashwathanand.com/bootstrap.min.js"></script>
 
-	</body>
+	</div> <!-- /.container -->
+</body>
 
 </html>
