@@ -11,11 +11,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
 	<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
 	<!-- Bootstrap -->
-    <link href="http://ashwathanand.com/bootstrap.css" rel="stylesheet">
+    <link href="../bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
-    <link href="http://ashwathanand.com/one-page-wonder.css" rel="stylesheet">
+    <link href="../one-page-wonder.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="style.css" rel="stylesheet">
 	<!--<link href="http://ashwathanand.com/contact/style.css" rel="stylesheet">-->
-	<link rel="stylesheet" href="http://ashwathanand.com/video.css">
+	<link rel="stylesheet" href="../video.css">
 	<!-- Latest compiled and minified JavaScript -->
 </head>
 
@@ -52,7 +54,8 @@
 		<div class="col-md-10 col-md-offset-1">
 		<br><br>
 			<form name="form1" id="ff" method="post" action="insert.php">
-			<p><h4>Shoot me an email if you have a project for me, would like to collaborate or just chat</h4></p>	
+			<h4><strong>Lets talk</strong></h4>
+			<p>I am always on the lookout for amazing people and challenging opportunities. So shoot me an email if you would like to work with me or just chat about interesting things.</p>	
 			<label>
 				<input type="text" class="form-control" placeholder="Your name" name="name" id="name" required autofocus>
 			</label>
@@ -71,7 +74,7 @@
 		
 			<div class="form-group">
 								
-									<button  type="submit" class="btn btn-default">
+									<button  type="submit" class="btn btn-primary">
 										<strong>Send Message</strong>
 									</button>
 			</div>
